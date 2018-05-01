@@ -1,0 +1,42 @@
+{
+  "name": "exceptions",
+  "version": "0.0.1",
+  "description": "A bunch of exception classes",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "t": "jest",
+    "tw": "jest --watch",
+    "cc": "jest --coverage",
+    "cs": "./node_modules/.bin/eslint src/*",
+    "csf": "./node_modules/.bin/eslint src/* --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinMarechal/exceptions.git"
+  },
+  "keywords": [
+    "exceptions"
+  ],
+  "author": "Robin Marechal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinmarechal/exceptions/issues"
+  },
+  "homepage": "https://github.com/robinmarechal/exceptions#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "eslint": "^4.17.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+  }
+}
