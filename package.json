@@ -1,6 +1,6 @@
 {
   "name": "bunch-of-exceptions",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A bunch of exception classes",
   "main": "build/index.js",
   "scripts": {
